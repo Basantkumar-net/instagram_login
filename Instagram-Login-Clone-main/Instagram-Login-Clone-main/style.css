@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-div form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.form-div form .instaLogo {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.form-div form .input {
+    width: 90%;
+    padding: .6rem;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+}
+
+.login-btn {
+    width: 97%;
+    padding: .4rem;
+    font-weight: 700;
+    background-color: rgb(1, 183, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+}
+
+#or {
+    margin: 20px 0;
+    font-weight: 300;
+}
+
+/* #or:before,
+#or:after {
+    content: '------------------------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+} */
+span p{
+    position: relative;
+    bottom: 5px;
+    color: #b1b1b1;
+    width: 85%;
+    padding: 15px;
+    margin: 7px;
+}
+
+span.OR{
+    font-weight: 350;
+}
+
+i.bx.bxl-facebook-square{
+    font-size: 22px;
+    
+}
+.fb-login {
+    font-weight: 700;
+    font-size: 95;
+    /* color: rgb(85, 0, 255); */
+    color: rgba(2, 51, 130, 0.849);
+    margin: 0;
+}
+
+div.gap{
+    padding: 4.5px ;
+}
+div.gap_2{
+    padding: 15px 10px;
+}
+.sign-up {
+    text-align: center;
+    border: 1px solid #8080804d;
+    padding: 20px 20px;
+    /* margin: ; */
+    
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+}
+
+#play {
+    width: 190px;
+}
+
+#microsoft {
+    width: 145px;
+    border-radius: 8px;
+}
+
+.OR{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px
+    /* column-gap: 18px; */
+    /* font-size: 14px; */
+}
+
+
+a.sign-link{
+    color: #0c92f9e2;
+    font-weight: 500;
+}
+a.forgot{
+    text-decoration: none;
+    color: rgba(3, 22, 83, 0.749);
+    /* padding: 10px; */
+    /* gap: 4px; */
+    font-weight: 400;
+    font-size: 14px;
+}
+p.no_ac{
+    font-weight: 300;
+}
+p.app{
+    padding: 10px;
+    font-weight: 300;
+}
+.gap_app{
+    padding: 45px;
+}
