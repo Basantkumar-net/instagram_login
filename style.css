@@ -60,19 +60,6 @@ main {
     
 }
 
-.login-btn a{
-    text-decoration: none;
-    width: 97%;
-    padding: .4rem;
-    font-weight: 700;
-    background-color: rgb(1, 183, 255);
-    border: none;
-    border-radius: 8px;
-    margin: 8px 0px;
-    color: white;
-    
-}
-
 #or {
     margin: 20px 0;
     font-weight: 300;
