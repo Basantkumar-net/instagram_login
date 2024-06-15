@@ -57,6 +57,10 @@ main {
     border-radius: 8px;
     margin: 8px 0px;
     color: white;
+    
+}
+
+.login-btn a{
     text-decoration: none;
 }
 
